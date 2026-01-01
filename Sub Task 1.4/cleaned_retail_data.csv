@@ -1,0 +1,6 @@
+sale_id,store_id,product_id,date,quantity,sales_amount,store_name,city,product_name,category,year,month,week,weekday
+1,101,1001,2024-01-05,2,500.0,Central Mall,Pune,Laptop,ELECTRONICS,2024,1,1,Friday
+2,101,1002,2024-01-06,1,300.0,Central Mall,Pune,Mobile,ELECTRONICS,2024,1,1,Saturday
+3,102,1001,2024-01-07,3,750.0,City Store,Mumbai,Laptop,ELECTRONICS,2024,1,1,Sunday
+4,103,1003,2024-01-08,2,600.0,Mega Mart,Delhi,Headphones,ACCESSORIES,2024,1,2,Monday
+5,102,1002,2024-01-09,4,1200.0,City Store,Mumbai,Mobile,ELECTRONICS,2024,1,2,Tuesday
