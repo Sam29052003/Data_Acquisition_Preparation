@@ -168,3 +168,107 @@
 ## Outcome
                                The dataset is now fully understood and ready for advanced EDA and machine learning tasks.
 
+
+
+## Sub Task 1.4
+
+# Retail Sales Forecasting – Exploratory Data Analysis (EDA)
+
+## Project Overview
+
+                            This project simulates a real-world data preparation and exploratory data analysis workflow for retail sales forecasting.
+                            The objective is to analyze a cleaned and integrated retail dataset to understand its structure, quality, patterns, and trends before building forecasting models.
+
+                            This task follows industry-standard practices used by Data Analysts and Data Scientists at the initial stage of a forecasting project.
+
+
+## Dataset Used
+
+                            File:`cleaned_retail_data.csv`
+
+                           The dataset is created by integrating:
+
+                          * `sales.csv`
+                          * `stores.csv`
+                          * `products.csv`
+
+### Key Columns
+
+                          * `date` – Sales transaction date
+                          * `store_id`, `store_name`, `city` – Store information
+                          * `product_id`, `product_name`, `category` – Product details
+                          * `quantity` – Units sold
+                          * `sales_amount` – Total sales value
+                          * `year`, `month`, `week`, `weekday` – Derived time features
+
+
+## Tools & Technologies
+
+                            **Python 3.14**
+                            **Pandas** – Data analysis
+                            **Matplotlib** – Data visualization
+                            **VS Code** – Development environment
+
+
+## EDA Steps Performed
+
+### 1. Data Loading & Inspection
+
+                           * Loaded the cleaned dataset using Pandas
+                           * Checked shape, column names, and data types
+                           * Verified dataset structure and schema
+
+### 2. Data Quality Checks
+
+                           * Checked for missing values
+                           * Identified duplicate records
+                           * Confirmed data consistency after cleaning
+
+### 3. Statistical Analysis
+
+                          * Generated summary statistics for numerical columns
+                          * Analyzed sales distribution and spread
+                          * Evaluated skewness and potential outliers
+
+### 4. Exploratory Visualizations
+
+                          * Histogram for sales amount distribution
+                          * Boxplot for outlier detection
+                          * Bar charts for:
+
+                                          * Store-wise sales
+                                          * Product-wise sales
+
+                         * Line plot for daily sales trends
+                         * Weekday-wise average sales analysis
+
+### 5. Correlation Analysis
+
+                         * Computed correlation matrix for numerical features
+                         * Identified relationships useful for forecasting
+
+## Key Insights
+
+                           * The dataset is clean and well-structured
+                           * No missing values or duplicate records detected
+                           * Sales show variation across stores and products
+                           * Temporal patterns exist across dates and weekdays
+                           * The dataset is suitable for time-series forecasting
+
+## Outcome
+
+                          The exploratory data analysis provided a strong understanding of:
+
+                            * Sales behavior
+                            * Store and product performance
+                            * Temporal trends and seasonality
+
+                            The dataset is now **ready for advanced EDA and forecasting models** such as ARIMA or machine learning approaches.
+
+## Next Steps
+
+                           * Time-series decomposition
+                           * Feature engineering for forecasting
+                           * Sales prediction models
+                           * Model evaluation and business insights
+
