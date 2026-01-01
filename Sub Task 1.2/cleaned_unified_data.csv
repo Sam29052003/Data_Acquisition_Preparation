@@ -1,0 +1,4 @@
+customer_id,name,age,join_date,order_id,amount
+1,Amit,22,2024-01-10,101,500
+3,Rahul,25,,103,700
+
