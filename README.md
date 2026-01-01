@@ -107,3 +107,64 @@
 ##  Outcome
 
                                The final output is a **cleaned, unified dataset** ready for further analysis and machine learning tasks, along with meaningful insights derived through EDA and visualization.
+
+
+
+
+# Sub Task 1.3 – Initial Exploratory Data Analysis (EDA)
+
+## Objective
+                                 The objective of this task is to understand the basic structure, quality, and statistical characteristics of the cleaned dataset before performing full-scale EDA.
+
+## Dataset Used
+                                **cleaned_unified_data.csv**
+
+                                The dataset contains customer-related information such as:
+                                - Customer ID
+                                - Name
+                                - City
+                                - Age
+                                - Purchase Amount
+ 
+
+## Tools & Technologies
+                                - Python 3.14
+                                - Pandas
+                                - Matplotlib
+                                - VS Code
+
+
+## Steps Performed
+
+### 1. Data Loading
+                                - Loaded cleaned dataset using Pandas
+                                - Verified dataset structure and size
+
+### 2. Structural Analysis
+                                - Inspected column names and data types
+                                - Previewed data using head() and tail()
+
+### 3. Data Quality Checks
+                               - Missing values detection
+                               - Duplicate record detection
+
+### 4. Statistical Analysis
+                              - Summary statistics using describe()
+                              - Skewness detection
+                              - Outlier identification using IQR method
+
+### 5. Initial Visualizations
+                              - Histogram for numerical distribution
+                              - Boxplot for outliers
+                              - Bar chart for categorical distribution
+                              - Scatter plot for feature relationships
+                              - Correlation matrix for numerical features
+## Key Insights
+                             - Dataset is clean and well-structured
+                             - No missing values or duplicate records
+                             - Purchase amount shows mild variability
+                             - Certain correlations observed between age and purchase behavior
+ 
+## Outcome
+                               The dataset is now fully understood and ready for advanced EDA and machine learning tasks.
+
