@@ -272,3 +272,65 @@
                            * Sales prediction models
                            * Model evaluation and business insights
 
+
+
+
+
+## Task1_Data_Extraction_Cleaning
+
+# Retail Sales Forecasting – Task 1: Data Extraction & Cleaning
+
+## Project Overview
+                              This project demonstrates the **end-to-end data preparation workflow** for retail sales forecasting.  
+                              The goal is to extract, clean, and integrate multiple datasets to create a unified dataset ready for exploratory data analysis and forecasting.
+
+## Dataset
+                              The project uses three CSV files:
+                              1. `sales.csv` – transactional sales data
+                              2. `stores.csv` – store metadata
+                              3. `products.csv` – product metadata
+
+                              All CSV files are located in the `data/` folder.
+
+## Steps Performed
+
+### 1. Data Extraction
+                             - Loaded `sales.csv`, `stores.csv`, and `products.csv` using Pandas.
+
+### 2. Data Cleaning
+                              - Removed duplicates
+                              - Handled missing values
+                              - Corrected data types
+                              - Standardized text columns (store names, categories)
+                              - Fixed date formats
+
+### 3. Data Integration
+                             - Merged sales, stores, and products into a single dataset
+                             - Ensured referential integrity
+
+### 4. Feature Engineering
+                             - Created date-based features: `year`, `month`, `weekday`
+                             - Computed basic aggregates: average sales per store and product
+
+### 5. Exploratory Analysis
+                            - Summary statistics
+                            - Distribution plots of sales
+                            - Bar charts for average sales per store/product
+                            - Correlation matrix for numeric columns
+
+### 6. Export
+                             - Exported final cleaned dataset as `cleaned_retail_data.csv`
+
+
+
+## Task-1_Data_Preparation
+
+                              > Task1_Data_Extraction_Cleaning.ipynb
+                              > cleaned_retail_data.csv
+     
+            
+             
+                                     Data folders
+                                     1. sales.csv
+                                     2. stores.csv
+                                     3. products.csv
